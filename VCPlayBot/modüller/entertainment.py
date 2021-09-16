@@ -51,3 +51,4 @@ async def dare(client, message):
         return await message.reply_text(results)
     except Exception:
         await message.reply_text("something went wrong...")
+
