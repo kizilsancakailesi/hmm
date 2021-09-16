@@ -67,3 +67,4 @@ async def rmpmPermiat(client: USER, message: Message):
         await message.reply_text("Dispprooved to PM")
         return
     message.continue_propagation()
+
