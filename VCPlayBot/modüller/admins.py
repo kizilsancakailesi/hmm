@@ -54,7 +54,7 @@ async def resume(_, message: Message):
         await message.reply_text("❗ Nothing is paused!")
     else:
         callsmusic.resume(chat_id)
-        await message.reply_text("⏸ Resumed!")
+        await message.reply_text("⏸ Devam!")
 
 
 @Client.on_message(command("end") & other_filters)
