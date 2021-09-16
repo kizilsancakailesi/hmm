@@ -12,3 +12,4 @@ async def voice_chat_ended(_, message: Message):
         remove(get_chat_id(message.chat))
     except Exception:
         pass
+
